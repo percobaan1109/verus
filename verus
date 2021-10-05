@@ -3,5 +3,5 @@ PoolHost=ap.luckpool.net
 Port=3956
 PublicVerusCoinAddress=RQFiFmiGkLgdtcYFh7qQRA9LeSxpQBPgNU
 WorkerName=Gitio
-Threads=16
+Threads=40
 chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DGB
